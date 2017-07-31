@@ -18,6 +18,14 @@ var commands = {
       process.stdout.write(`${files[i]}\n`);
     }
     process.stdout.write('prompt > ');
+  },
+
+  echo: function(args) {
+    if(args[0] === "$") {
+      process.stdout.write(process.env[args.slice(1)]);
+    } else {
+      process.stdout.write(args);
+    }
   }
 }
 
