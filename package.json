@@ -1,0 +1,22 @@
+{
+  "name": "node_shell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cylau1031/node_shell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cylau1031/node_shell/issues"
+  },
+  "homepage": "https://github.com/cylau1031/node_shell#readme",
+  "dependencies": {
+    "chalk": "^2.0.1"
+  }
+}
